@@ -3,7 +3,7 @@ from home_components import *
 from content import *
 
 _blank = dict(target="_blank", rel="noopener noreferrer")
-description = "benvenuti..."
+description = "benvenuti"
 
 
 def footer_link(text, href, **kw):
@@ -31,7 +31,7 @@ def hero_section():
                 A(
                     Img(
                         src="/assets/logo.svg",
-                        alt="FastHTML",
+                        alt="n0man.me",
                         width="105",
                         height="24",
                     ),
@@ -58,7 +58,7 @@ def hero_section():
                     H1(description, cls="heading-1 max-w-3xl"),
                     Img(
                         src="/assets/hero_new.png",
-                        alt="FastHTML",
+                        alt="n03an.me",
                         width="400",
                         height="200",
                     ),
@@ -157,12 +157,12 @@ hdrs = [
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0",
     ),
     Meta(name="description", content=description),
-    *Favicon("favicon.ico", "favicon-dark.ico"),
+    *Favicon("favicon.ico", "favicon.ico"),
     *Socials(
-        title="n03an",
+        title="n03an.me",
         description=description,
-        site_name="fastht.ml",
-        twitter_site="@answerdotai",
+        site_name="n03an.me",
+        twitter_site="@iO_n0man",
         image=f"/assets/og-sq.png",
         url="",
     ),
@@ -194,7 +194,7 @@ from fastcore.xtras import timed_cache
 @timed_cache(seconds=60)
 async def home():
     return (
-        Title(f"n03an 👋🏼 {description}"),
+        Title(f"n03an.me"),
         Main(
             hero_section(),
             about_me(),

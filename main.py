@@ -49,11 +49,11 @@ def hero_section():
         ),
         Section(
             Div(
-                File("assets/hero-shapes.svg"),
+                File("assets/shapes.svg"),
                 cls="absolute z-0 lg:-top-[15%] top-0 left-1/2 -translate-x-1/2 grid grid-cols-1 grid-rows-1 w-[120%] aspect-square max-w-[2048px] min-w-[900px]",
             ),
             Div(
-                Div(cls="lg:flex-1 max-lg:basis-[152px]"),
+                # Div(cls="lg:flex-1 max-lg:basis-[152px]"),
                 Div(
                     H1(description, cls="heading-1 max-w-3xl"),
                     Img(
@@ -64,18 +64,18 @@ def hero_section():
                     ),
                     cls=f"flex-1 {col} items-center justify-center text-center w-full text-black",
                 ),
-                Div(
-                    A(
-                        "Lets Connect",
-                        href="https://sg.linkedin.com/in/nouman-memon-0aab3310",
-                        **_blank,
-                        cls=f"{bnset} m-body px-4 py-1 rounded-full bg-black hover:bg-black/80 transition-colors duration-300 text-white h-[76px] w-full max-w-[350px] flex items-center justify-center",
-                    ),
-                    cls=f"flex-1 {center} justify-center content-center flex-wrap lg:gap-6 gap-4 m-body",
-                ),
+                # Div(
+                #     A(
+                #         "Lets Connect",
+                #         href="https://sg.linkedin.com/in/nouman-memon-0aab3310",
+                #         **_blank,
+                #         cls=f"{bnset} m-body px-4 py-1 rounded-full bg-black hover:bg-black/80 transition-colors duration-300 text-white h-[76px] w-full max-w-[350px] flex items-center justify-center",
+                #     ),
+                #     cls=f"flex-1 {center} justify-center content-center flex-wrap lg:gap-6 gap-4 m-body",
+                # ),
                 cls=f"{col} flex-1 relative px-4 lg:px-16",
             ),
-            cls=f"{col} relative w-full h-screen max-h-[1024px] min-h-[720px] overflow-hidden bg-white",
+            cls=f"{col} relative w-full h-screen max-h-[1024px] min-h-[720px] overflow-hidden bg-yellow",
         ),
     )
 
@@ -92,12 +92,12 @@ def faq_item(question, answer, id):
 
 
 def about_me():
-    msg = "Nouman is my name and this is an example. Why do I care because I am just trying to fill in the space for styling. This is a placeholder."
+    msg = "Nouman is my name and this is an example. Why do I care because I am just trying to fill in the space for styling. This is a placeholder and this site is under construction."
     return section_wrapper(
         (
             Div(
                 section_header(
-                    "SOME INFORMATION ABOUT ME", "Nouman Memon [n03an]", msg
+                    "SITE UNDER CONSTRUCTION 🧱🚧", "Nouman Memon [n03an]", msg
                 ),
                 cls="max-w-3xl w-full mx-auto flex-col items-center text-center gap-6 mb-8 lg:mb-8",
             ),

@@ -57,9 +57,9 @@ def hero_section():
                 Div(
                     H1(description, cls="heading-1 max-w-3xl"),
                     Img(
-                        src="/assets/hero.png",
+                        src="/assets/hero_new.png",
                         alt="FastHTML",
-                        width="350",
+                        width="400",
                         height="200",
                     ),
                     cls=f"flex-1 {col} items-center justify-center text-center w-full text-black",

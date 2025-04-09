@@ -34,11 +34,12 @@ jobs:
       # Build the book
       - name: Build the book
         run: |
-          jb build -W --keep-going notebooks
+          jb build --keep-going notebooks
 
       - name: Fix styles
         run: |
           cp notebooks/_asset/quantecon-book-theme.css notebooks/_build/html/_static/styles
+          cp notebooks/_asset/pygments.css notebooks/_build/html/_static/
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact

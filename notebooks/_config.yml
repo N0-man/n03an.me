@@ -13,11 +13,10 @@ sphinx:
     html_theme_options:
       header_organisation_url: https://n03an.me
       header_organisation: Nouman Memon
-      html_title: n03an.me
       repository_url: https://github.com/N0-man/n03an.me
       twitter: n03an
-      twitter_logo_url: https://n0-man.github.io/n03an.me/assets/logo.svg
-      og_logo_url: https://n0-man.github.io/n03an.me/assets/logo.svg
+      twitter_logo_url: https://n0-man.github.io/n03an.me/_static//logo.svg
+      og_logo_url: https://n0-man.github.io/n03an.me/_static//logo.svg
       description: Personal website
       keywords: Python, Machine Learning, GenAI, Evals, LLMs, Data Science
       analytics:

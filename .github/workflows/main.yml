@@ -1,0 +1,60 @@
+name: deploy
+# Run this when the master or main branch changes
+on:
+  push:
+    branches:
+      - main
+# This job installs dependencies, builds the book, and pushes it to `gh-pages`
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install dependencies
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Extract image attachmes from notebooks
+        run: |
+          python extract_base64_attachments.py
+
+      - name: cache executed notebooks
+        uses: actions/cache@v4
+        with:
+          path: _build/.jupyter_cache
+          key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
+
+      # Build the book
+      - name: Build the book
+        run: |
+          jb build -W --keep-going notebooks
+
+      - name: Fix styles
+        run: |
+          cp notebooks/_asset/quantecon-book-theme.css notebooks/_build/html/_static/styles
+
+      # Upload the book's HTML as an artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "notebooks/_build/html"
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+    steps:
+      # Deploy the book's HTML to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,7 +1,7 @@
 # Book settings
 title: n03an.me
 author: Nouman Memon
-logo: _asset/hero_new.png
+logo: _asset/self_light.png
 description: personal website
 
 execute:
@@ -15,8 +15,9 @@ sphinx:
       header_organisation: Nouman Memon
       repository_url: https://github.com/N0-man/n03an.me
       twitter: n03an
-      twitter_logo_url: https://n0-man.github.io/n03an.me/_static//logo.svg
-      og_logo_url: https://n0-man.github.io/n03an.me/_static//logo.svg
+      twitter_logo_url: https://n0-man.github.io/n03an.me/_static/logo.svg
+      og_logo_url: https://n0-man.github.io/n03an.me/_static/logo.svg
+      "dark_logo": "self_dark.png"
       description: Personal website
       keywords: Python, Machine Learning, GenAI, Evals, LLMs, Data Science
       analytics:

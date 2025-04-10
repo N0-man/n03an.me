@@ -1,6 +1,6 @@
 format: jb-book
 root: INTRO
 options:
-  numbered: true
+  numbered: false
 chapters:
   - file: Neural_Networks

@@ -1,8 +1,7 @@
 # Book settings
-title: n03an.me
-author: Nouman Memon
-logo: _asset/self_light.png
-description: personal website
+title: Nouman Memon
+author: n03an's personal notes
+description: Nouman's personal website to dump his AI exploration
 
 execute:
   execute_notebooks: "off"
@@ -11,17 +10,10 @@ sphinx:
   config:
     html_theme: quantecon_book_theme
     html_theme_options:
-      header_organisation_url: https://n03an.me
-      header_organisation: Nouman Memon
       repository_url: https://github.com/N0-man/n03an.me
-      twitter: n03an
-      twitter_logo_url: https://n0-man.github.io/n03an.me/_static/logo.svg
       og_logo_url: https://n0-man.github.io/n03an.me/_static/logo.svg
-      "dark_logo": "self_dark.png"
-      description: Personal website
-      keywords: Python, Machine Learning, GenAI, Evals, LLMs, Data Science
-      analytics:
-        google_analytics_id: G-1234
+      description: Nouman's Personal website to dump his AI exploration
+      keywords: Python, Machine Learning, GenAI, Evals, LLMs, Data Science, Agents, MIT, arxiv
     bibtex_reference_style: author_year
     mathjax3_config:
       tex:
@@ -55,4 +47,5 @@ bibtex_bibfiles:
   - references.bib
 
 html:
+  favicon: "_assest/favicon.ico"
   use_repository_button: false

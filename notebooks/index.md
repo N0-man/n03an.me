@@ -41,15 +41,15 @@
   <p><b style="font-size:1.1em">Meet Nouman </b><span style="color: #2b6cb0">(pronounced "noo-mahn" — not "no man")</span>...and I am Certified Human™ writing code for living.</p>
 
 <br>
-  <p><b style="font-size:1.1em">🖋️ Once Upon a Time...</b> Math and I had a toxic relationship and it never made sense beyond daily life arithmetic usage. Having a masters in Computer Science, it only tells me that our education system is great at teaching you to nod at concepts you’ll <em>"totally use someday"... somewhere... for something... 🤷 you cant imagine while studying</em></p>
+  <p><b style="font-size:1.1em">Once Upon a Time...🖋️</b> Math and I had a toxic relationship because it always seemed so unnecessarily complicated and irrelevant beyond day-to-day simple arithmetic. Having a masters in Computer Science, it only tells me that our education system is great at teaching you to nod at concepts you’ll <em>"totally use someday"... somewhere... for something... 🤷 you cant imagine while studying</em></p>
 
-  <p><b style="font-size:1.1em">🤖 Then ChatGPT happened to most of us after Corona 🦠</b>, and the term “TOKENS” were in most human neurons. My tech ego took a hit, purely out of frustration of not understanding what does it mean AND how the heck ChatGPT is able to talk like a confident super human? I dove down the rabbit hole 🐇 of understanding its internals, <span style="color: #2b6cb0">~*~which led to my first positive attraction to Math❣️~*~</span> when I wrote my first <a href="https://n03an.me/Neural_Networks.html">tiny Neural Network</a>  as part of  an assignment in MIT DeepLearning <a href="https://courses.edx.org/certificates/27f8bff770cd44b59e1624a0fdf0942d">MicroMaster program</a>…</p>
+  <p><b style="font-size:1.1em">then ChatGPT 🤖 happened to most of us after Corona 🦠</b>, and the term “TOKENS” were in most human neurons. My tech ego took a hit, purely out of frustration of not understanding what does it mean AND how the heck ChatGPT is able to respond like a confident super human? I dove down the rabbit hole 🐇 of understanding its internals, <span style="color: #2b6cb0">~*~which led to my first positive attraction to Math❣️~*~</span> when I wrote my first <a href="https://n03an.me/Neural_Networks.html">tiny Neural Network</a>  as part of  an assignment in MIT DeepLearning <a href="https://courses.edx.org/certificates/27f8bff770cd44b59e1624a0fdf0942d">MicroMaster program</a>…</p>
 
   <br>
   <br>
-  <p><b style="font-size:1.3em">🌐 What Is This Website?</b> </b><span style="color: #2b6cb0">Glad You Pretended to Ask! </span></p>
+  <p><b style="font-size:1.3em">🌐 What iss this website?</b> </b><span style="color: #2b6cb0">glad You pretenDed to ask! </span></p>
   <ul>
-      <li class="li-effect"><strong>Meta Nouman™:</strong> its still in fashion to have your single pager meta information to let people interested in your know about you</li>
+      <li class="li-effect"><strong>Meta Nouman™:</strong> its still in fashion to have your single pager meta information to let people interested in you know about you</li>
       <li class="li-effect"><strong>n03an.me...</strong> I could fancy some weird domain that sounds like my name because adulthood lets you do weird things— no?</li>
       <li class="li-effect"><strong>and Finally</strong>, I have tons of unorganized digital junk, and I want to get into the habit of cleansing some decent AI-related notes that I can publish to reference on the fly <span class="pulse">(Progress: 0.001%)</span></li>
   </ul>

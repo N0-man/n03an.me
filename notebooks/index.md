@@ -56,7 +56,7 @@
 
   <br>
   <p><b style="font-size:1.3em">👋 If You're Still Reading </b></p>
-  <p><b><em>Ciao!</em></b> You’re now legally obligated to judge my life choices. Happy browsing 💡...</p>
+  <p><b><em>Ciao!</em></b> You’re now legally obligated to judge my life choices 💡...</p>
   <p>
   ... Oh wait, BTW if you’re wondering 
       <span class="token" style="color: black; background-color: #ffb3ba">2028</span>
@@ -74,7 +74,7 @@
 ![image](_asset/self_anni.gif)
 
 <section style="text-align: center; font-family: sans-serif;">
-  <h3 style="text-align: center; font-size: 2rem; margin-bottom: 1rem;">Connect With Me</h3>
+  <p><b style="text-align: center; font-size:2rem">Connect With Me </b></p>
   <p style="text-align: center; color: #666; max-width: 600px; margin: 0 auto 2rem;">
     Find me across the digital universe...
   </p>

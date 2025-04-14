@@ -6,3 +6,10 @@ sphinx-exercise==1.0.1
 ghp-import==2.1.0
 sphinxcontrib-youtube
 sphinx-proof==0.2.0
+numpy
+dataclasses
+panda
+tabulate
+matplotlib
+seaborn
+scikit-learn

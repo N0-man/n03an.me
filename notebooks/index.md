@@ -76,7 +76,7 @@
 <section style="text-align: center; font-family: sans-serif;">
   <p><b style="text-align: center; font-size:2rem">Connect With Me </b></p>
   <p style="text-align: center; color: #666; max-width: 600px; margin: 0 auto 2rem;">
-    Find me across the digital universe...
+    Find me across the digital universe
   </p>
   
   <div style="display: flex; flex-wrap: wrap; gap: 1.2rem; justify-content: center; max-width: 500px; margin: 0 auto;">

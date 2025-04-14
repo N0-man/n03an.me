@@ -4,3 +4,4 @@ options:
   numbered: false
 chapters:
   - file: Neural_Networks
+  - file: Embeddings

@@ -2,6 +2,11 @@ format: jb-book
 root: index
 options:
   numbered: false
-chapters:
-  - file: Neural_Networks
-  - file: Embeddings
+parts:
+  - caption: Foundational
+    chapters:
+      - file: Neural_Networks
+      - file: Embeddings
+  - caption: Making of Generative Pre-trained Transformer
+    chapters:
+      - file: gpt/01_Bigram

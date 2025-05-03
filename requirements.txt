@@ -6,7 +6,8 @@ sphinx-exercise==1.0.1
 ghp-import==2.1.0
 sphinxcontrib-youtube
 sphinx-proof==0.2.0
-numpy
+torch==2.4.1
+numpy==2.1.1
 dataclasses
 panda
 tabulate

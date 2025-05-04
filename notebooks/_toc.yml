@@ -10,3 +10,4 @@ parts:
   - caption: Making of Generative Pre-trained Transformer
     chapters:
       - file: gpt/01_Bigram
+      - file: gpt/02_MLP

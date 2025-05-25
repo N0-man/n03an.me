@@ -11,3 +11,6 @@ parts:
     chapters:
       - file: gpt/01_Bigram
       - file: gpt/02_MLP
+  - caption: AI Playground
+    chapters:
+      - file: document_parse/colqwen2

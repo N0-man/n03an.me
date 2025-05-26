@@ -10,7 +10,7 @@ sphinx:
   config:
     html_theme: quantecon_book_theme
     html_theme_options:
-      repository_url: https://github.com/N0-man/n03an.me
+      repository_url: https://github.com/jupyter-book/jupyter-book
       og_logo_url: https://n0-man.github.io/n03an.me/_static/logo.svg
       description: Nouman's Personal website to dump his AI exploration
       keywords: Python, Machine Learning, GenAI, Evals, LLMs, Data Science, Agents, MIT, arxiv

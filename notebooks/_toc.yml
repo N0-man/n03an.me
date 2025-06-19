@@ -11,6 +11,9 @@ parts:
     chapters:
       - file: gpt/01_Bigram
       - file: gpt/02_MLP
+  - caption: Model Training
+    chapters:
+      - file: training/CPT
   - caption: AI Playground
     chapters:
       - file: document_parse/colqwen2

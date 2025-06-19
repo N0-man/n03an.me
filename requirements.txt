@@ -20,3 +20,4 @@ transformers
 PyMuPDF
 Pillow
 torchao
+faker

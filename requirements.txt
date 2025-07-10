@@ -8,6 +8,8 @@ sphinxcontrib-youtube
 sphinx-proof==0.2.0
 torch==2.4.1
 numpy==2.1.1
+ultralytics==8.3.4
+opencv-python
 dataclasses
 panda
 tabulate

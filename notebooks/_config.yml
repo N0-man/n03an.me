@@ -1,7 +1,7 @@
 # Book settings
 title: Nouman Memon
 author: n03an's personal notes
-description: Nouman's personal website to dump his AI exploration
+description: Nouman's Personal dump of AI explorations and notes
 
 execute:
   execute_notebooks: "off"
@@ -12,7 +12,7 @@ sphinx:
     html_theme_options:
       repository_url: https://github.com/jupyter-book/jupyter-book
       og_logo_url: https://n0-man.github.io/n03an.me/_static/logo.svg
-      description: Nouman's Personal website to dump his AI exploration
+      description: Nouman's Personal dump of AI explorations and notes
       keywords: Python, Machine Learning, GenAI, Evals, LLMs, Data Science, Agents, MIT, arxiv
     bibtex_reference_style: author_year
     mathjax3_config:

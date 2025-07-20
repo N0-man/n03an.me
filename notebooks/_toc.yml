@@ -16,6 +16,9 @@ parts:
     chapters:
       - file: training/CPT
       - file: training/PEFT
+  - caption: Inference
+    chapters:
+      - file: inference/LLM_Inference_Optimization
   - caption: Visual Modality
     chapters:
       - file: va/yolo

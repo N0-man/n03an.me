@@ -41,6 +41,7 @@ jobs:
           cp notebooks/_asset/quantecon-book-theme.css notebooks/_build/html/_static/styles
           cp notebooks/_asset/pygments.css notebooks/_build/html/_static/
           cp notebooks/_asset/*.{png,svg} notebooks/_build/html/_static/
+          cp notebooks/_asset/nvidia/deepstream/*.mp4 notebooks/_build/html/_static/
           cp -r notebooks/_asset/fonts notebooks/_build/html/_static/
 
       # Upload the book's HTML as an artifact

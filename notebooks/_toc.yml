@@ -21,8 +21,7 @@ parts:
       - file: inference/LLM_Inference_Optimization
   - caption: NVIDIA
     chapters:
-      - file: deepstream/Intro_DeepStream
-      - file: deepstream/MDNN_DeepStream_application
+      - file: nvidia/deepstream/Intro_DeepStream
   - caption: Visual Modality
     chapters:
       - file: va/yolo

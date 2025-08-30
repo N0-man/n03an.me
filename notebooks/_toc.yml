@@ -22,6 +22,7 @@ parts:
   - caption: NVIDIA
     chapters:
       - file: nvidia/deepstream/Intro_DeepStream
+      - file: nvidia/deepstream/MDNN_DeepStream_application
   - caption: Visual Modality
     chapters:
       - file: va/yolo

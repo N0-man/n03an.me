@@ -22,10 +22,8 @@ parts:
   - caption: NVIDIA
     chapters:
       - file: nvidia/deepstream/Intro_DeepStream
-      - file: nvidia/deepstream/MDNN_DeepStream_application
       - file: nvidia/deepstream/tracker
-      - file: nvidia/tao/tao_intro
-  - caption: Visual Modality
+  - caption: Vision
     chapters:
-      - file: va/yolo
+      - file: vision/yolo
       - file: document_parse/colqwen2

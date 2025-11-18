@@ -46,3 +46,8 @@ dbscan-min-score=0.7726
 eps=0.2538
 detected-min-w=20
 detected-min-h=20
+
+
+trtexec --onnx=resnet34_peoplenet.onnx --int8 \
+ --saveEngine=resnet34_peoplenet.onnx_b1_gpu0_int8.engine \
+--minShapes="input_1:0":1x3x544x960 --optShapes="input_1:0":2x3x544x960 --maxShapes="input_1:0":2x3x544x960&

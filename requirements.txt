@@ -9,6 +9,7 @@ sphinx-proof==0.2.0
 torch==2.4.1
 numpy==2.1.1
 ultralytics
+sahi
 opencv-python
 dataclasses
 panda

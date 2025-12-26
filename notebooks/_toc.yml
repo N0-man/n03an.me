@@ -12,6 +12,9 @@ parts:
     chapters:
       - file: gpt/01_Bigram
       - file: gpt/02_MLP
+  - caption: From Scratch
+    chapters:
+      - file: scratch/qwen3
   - caption: Model Training
     chapters:
       - file: training/CPT
@@ -19,13 +22,13 @@ parts:
   - caption: Inference
     chapters:
       - file: inference/LLM_Inference_Optimization
-  - caption: NVIDIA
-    chapters:
-      - file: nvidia/deepstream/Intro_DeepStream
-      - file: nvidia/deepstream/tracker
   - caption: Vision
     chapters:
       - file: vision/yolo
       - file: document_parse/colqwen2
       - file: vision/vit/siglip_clip_vit
       - file: vision/vit/perception_testing
+  - caption: NVIDIA
+    chapters:
+      - file: nvidia/deepstream/Intro_DeepStream
+      - file: nvidia/deepstream/tracker

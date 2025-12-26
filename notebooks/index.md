@@ -38,7 +38,7 @@
 <!-- Narrative -->
 <br>
 <div class="container">
-  <p><b style="font-size:1.1em">Meet Nouman </b><span style="color: #2b6cb0">(pronounced "noo-mahn" — not "no man")</span>...and I am Certified Human™ writing code for living.</p>
+  <p><b style="font-size:1.1em">Meet Nouman </b><span style="color: #2b6cb0">(pronounced "noo-mahn" — not "no man")</span>...and I am Certified Human™ writing code (and consuming ☕️) for a living.</p>
 
 <br>
   <p><b style="font-size:1.1em">Once Upon a Time...🖋️</b> Math and I had a toxic relationship because it always seemed so unnecessarily complicated and irrelevant beyond day-to-day simple arithmetic. Having a masters in Computer Science, it only tells me that our education system is great at teaching you to nod at concepts you’ll <em>"totally use someday"... somewhere... for something... 🤷 you cant imagine while studying</em></p>

@@ -156,3 +156,6 @@ _docs
 
 */_build
 */.ipynb_checkpoints/
+
+*.safetensors
+tokenizer*.json

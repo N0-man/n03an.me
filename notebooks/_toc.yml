@@ -24,6 +24,7 @@ parts:
       - file: inference/LLM_Inference_Optimization
   - caption: Vision
     chapters:
+      - file: vision/cnn
       - file: vision/yolo
       - file: document_parse/colqwen2
       - file: vision/vit/siglip_clip_vit

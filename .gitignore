@@ -159,3 +159,5 @@ _docs
 
 *.safetensors
 tokenizer*.json
+
+**/vision/data

@@ -29,6 +29,7 @@ parts:
       - file: document_parse/colqwen2
       - file: vision/vit/siglip_clip_vit
       - file: vision/vit/perception_testing
+      - file: vision/dinov3
   - caption: NVIDIA
     chapters:
       - file: nvidia/deepstream/Intro_DeepStream

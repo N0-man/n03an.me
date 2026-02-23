@@ -30,6 +30,7 @@ parts:
       - file: vision/vit/siglip_clip_vit
       - file: vision/vit/perception_testing
       - file: vision/dinov3
+      - file: vision/veri_osnet
   - caption: NVIDIA
     chapters:
       - file: nvidia/deepstream/Intro_DeepStream

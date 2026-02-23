@@ -23,3 +23,14 @@ pip install -r requirements.txt
 ### Rendering base64 image attachments in JupiterBook
 
 > **Note**: as of July2024, jupiter-book wasnt cleanly able to convert base64 image attachments from notebook cells into external image to be used within html. The program [extract_base64_attachments.py](/extract_base64_attachments.py) runs as part of the pipeline scan each notebook cells and extract base64 images into external image files. Once the images are extracted, `sphinx` would take care of isolating all the image files into single image director as part of `jupiter-book build`
+
+---
+### add scroll output 
+if you dont want super long output html, add this metada to code output in text editor mode
+```
+   "metadata": {
+    "tags": [
+     "scroll-output"
+    ]
+   },
+```

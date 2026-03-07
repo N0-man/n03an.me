@@ -20,6 +20,7 @@ parts:
       - file: training/CPT
       - file: training/PEFT
       - file: training/veri_osnet
+      - file: training/vcor_yolo_FT
   - caption: Inference
     chapters:
       - file: inference/LLM_Inference_Optimization

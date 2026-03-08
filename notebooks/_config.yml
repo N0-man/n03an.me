@@ -14,8 +14,11 @@ sphinx:
       og_logo_url: https://n0-man.github.io/n03an.me/_static/logo.svg
       description: Nouman's Personal dump of AI explorations and notes
       keywords: Python, Machine Learning, GenAI, Evals, LLMs, Data Science, Agents, MIT, arxiv
-      qetheme_code_style: True
+      qetheme_code_style: False
+      quantecon_project: False
+      use_repository_button: False
     bibtex_reference_style: author_year
+    pygments_style: friendly
     mathjax3_config:
       tex:
         macros:

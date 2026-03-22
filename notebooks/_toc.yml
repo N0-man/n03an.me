@@ -15,6 +15,7 @@ parts:
   - caption: From Scratch
     chapters:
       - file: scratch/qwen3
+      - file: scratch/VLM/paligemma_scratch
   - caption: Model Training
     chapters:
       - file: training/CPT

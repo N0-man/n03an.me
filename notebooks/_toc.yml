@@ -21,7 +21,6 @@ parts:
     chapters:
       - file: training/CPT
       - file: training/PEFT
-      - file: training/veri_osnet
       - file: training/vcor_yolo_FT
   - caption: Inference
     chapters:
@@ -34,6 +33,10 @@ parts:
       - file: vision/vit/siglip_clip_vit
       - file: vision/vit/perception_testing
       - file: vision/dinov3
+  - caption: ReID
+    chapters:
+      - file: reid/veri_osnet
+      - file: reid/pecore_clip_reid
   - caption: NVIDIA
     chapters:
       - file: nvidia/deepstream/Intro_DeepStream

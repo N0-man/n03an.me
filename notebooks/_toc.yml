@@ -25,6 +25,7 @@ parts:
   - caption: Inference
     chapters:
       - file: inference/LLM_Inference_Optimization
+      - file: inference/GPU
   - caption: Vision
     chapters:
       - file: vision/cnn
